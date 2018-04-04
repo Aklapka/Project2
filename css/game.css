@@ -1,0 +1,32 @@
+.background    { background: rgb(21, 30, 68);
+                 table-layout: fixed;
+                 border-spacing: 0;   
+				 background-image: url("images/Stormy Clouds.png");}
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 234, 130); }
+.wall          { background: rgb(93, 98, 137);   }
+.floater	   { background: rgb(63, 66, 94); }
+.Loki		   { background-image: url("images/Loki head.png");
+				 background-size: 20px 20px;}
+.gem		   {background-image: url("images/Helmet.png");
+				background-size: 14px 20px;}
+
+.actor  { position: absolute;  }
+.Hammer   { background-image: url("images/Hammer.png");
+		  background-size: 30px 50px;}
+.player { background-image: url("images/Thor.png");
+		  background-size: 16px 30px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url("images/ThorDead.png");  
+}
+.won .player {
+  background-image: url("images/ThorWin.png");
+}
